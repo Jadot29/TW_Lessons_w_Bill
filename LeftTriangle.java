@@ -9,12 +9,10 @@ package com.example.lesson1;
  */
 public class LeftTriangle {
     public static void main(String[] args) {
-        int x = 5 ;
-        for ( int i = 0 ; i < x ; i++)
-        {
+        int x = 5;
+        for (int i = 0; i < x; i++) {
             System.out.print("\n*");
-            for ( int n  = 0; n < i ; n++)
-            {
+            for (int n = 0; n < i; n++) {
                 System.out.print("*");
             }
 
